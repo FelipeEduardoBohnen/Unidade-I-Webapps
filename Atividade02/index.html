@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de Felipe Eduardo Bohnen</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Currículo online de Felipe Eduardo Bohnen, com informações sobre formação, experiência profissional e contato.">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="profile-image">
+                <img src="media/foto.jpg" alt="Foto de perfil de Felipe Eduardo Bohnen">
+            </div>
+            <div class="profile-info">
+                <h1>Felipe Eduardo Bohnen</h1>
+                <p>Desde cedo, adquiri experiência em diversas áreas e ocupações distintas, sempre me destacando pela pontualidade, disposição, curiosidade e foco.</p>
+            </div>
+            <div class="contact-links">
+                <a href="mailto:felipebohnenf@gmail.com" target="_blank" aria-label="Enviar um e-mail para Felipe Eduardo Bohnen">
+                    E-mail
+                </a>
+                <a href="tel:+5549991191199" aria-label="Ligar para Felipe Eduardo Bohnen">
+                    Telefone
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="apresentacao">
+            <div class="container">
+                <h2>Seja bem-vindo(a)</h2>
+                <p>Este é o meu currículo online. Fique à vontade para explorar as seções abaixo.</p>
+                <div class="interactive-area">
+                    <button id="show-message-btn">Clique para uma saudação</button>
+                    <button id="toggle-experience-btn">Ocultar Experiência</button>
+                    <div class="name-form">
+                        <label for="visitor-name">Digite seu nome:</label>
+                        <input type="text" id="visitor-name" placeholder="Seu nome">
+                        <button id="submit-name-btn">Saudar</button>
+                    </div>
+                </div>
+                <p id="greeting-message" class="hidden"></p>
+            </div>
+        </section>
+        
+        <section id="experiencia">
+            <div class="container">
+                <h2>Experiência Profissional</h2>
+                <article>
+                    <h3>Professor de Informática, APAE de Tunápolis/Santa Helena</h3>
+                    <p><strong>2023 – Atualmente</strong></p>
+                    <p>Responsável pela organização e manutenção dos equipamentos eletrônicos da instituição, além de desenvolver atividades pedagógicas que envolvem o uso de tecnologia com os alunos.</p>
+                </article>
+                <article>
+                    <h3>Professor de Informática, Rede Municipal de Tunápolis</h3>
+                    <p><strong>2023 – 2024</strong></p>
+                    <p>Atuei nas escolas CEIRS, EMLSP e PEBC, contribuindo para a alfabetização digital e o desenvolvimento de habilidades tecnológicas dos alunos.</p>
+                </article>
+                <article>
+                    <h3>Assistente Técnico, Portal Informática</h3>
+                    <p><strong>2022 – 2023</strong></p>
+                    <p>Manutenção de computadores, incluindo formatações, recuperação de software e reparos físicos. Adquiri habilidades em solda e solução de problemas de hardware e software.</p>
+                </article>
+                <article>
+                    <h3>Auxiliar, Granja Baumgratz</h3>
+                    <p><strong>2021 – 2022</strong></p>
+                    <p>Atuei liderando pequenas equipes, gerenciando carregamentos, vacinações e inseminações. Também fui responsável pela operação de maquinário agrícola e líder de turno.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="formacao">
+            <div class="container">
+                <h2>Educação</h2>
+                <article>
+                    <h3>Ciências da Computação – UNOESC</h3>
+                    <p>Cursando a quarta fase do bacharelado em São Miguel do Oeste.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="qualificacoes">
+            <div class="container">
+                <h2>Qualificações Técnicas</h2>
+                <ul>
+                    <li>Conhecimento em diversas linguagens de programação, incluindo:</li>
+                    <li><strong>Python</strong></li>
+                    <li><strong>Java</strong></li>
+                    <li><strong>C++</strong></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <div class="container">
+                <h2>Habilidades (Canvas)</h2>
+                <p>Abaixo, uma ilustração simples de habilidades usando o elemento <canvas>.</p>
+                <canvas id="skills-canvas" width="250" height="150" aria-label="Gráfico de habilidades básicas"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p><strong>Felipe Eduardo Bohnen</strong></p>
+            <p>L. São Pedro, Tunápolis-SC</p>
+            <p>&copy; 2024. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
